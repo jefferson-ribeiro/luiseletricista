@@ -151,7 +151,7 @@ p {
     box-shadow: 2px 2px 7px black;
 }
 
-img {
+.container img {
     width: 70%;
     border-radius: 8px;
     border-width:thin;
