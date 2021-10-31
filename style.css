@@ -63,10 +63,8 @@ main {
 header {
     background-image: linear-gradient(to bottom, black, var(--cor3));
     min-width: 100%;
-    min-height: 150px;
+    max-height: 200px;
     text-align: center;
-    padding-top: 20px;
-
 }
 
 header h1 {
@@ -127,13 +125,15 @@ nav a:hover {
 #topo{
     position: sticky;
     top: 0;
-    width: 100%;
+
 }
 
 h2 {
     font-family: Bungee;
     color:black;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -141,6 +141,7 @@ p {
 }
 
 .eletrica {
+    margin-top: 40px;
     
 }
 
