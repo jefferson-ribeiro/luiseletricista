@@ -12,7 +12,7 @@
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #25d366;
+    background-color: rgb(37, 211, 102);
     color: white;
     border-radius: 50px;
     text-align: center;
@@ -44,6 +44,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color:var(--cor2);
 }
@@ -54,7 +55,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 300px;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -63,9 +64,12 @@ main {
 header {
     background-image: linear-gradient(to bottom, black, var(--cor3));
     min-width: 100%;
-    max-height: 200px;
+    min-height: 150px;
     text-align: center;
+    padding-top: 20px;
+
 }
+
 
 header h1 {
     font-family: Paytone One;
@@ -122,29 +126,37 @@ nav a:hover {
     color: var(--cor3);
 }
 
-#topo{
-    position: sticky;
-    top: 0;
 
-}
 
 h2 {
     font-family: Bungee;
     color:black;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 p {
     margin-top: 10px;
 }
 
-.eletrica {
-    margin-top: 40px;
+button {
+    background-color: #25d366;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    box-shadow: none;
+    border: none;
     
+
 }
 
+button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button img {
+    width: 3rem;
+}
 
 
 .container {
@@ -177,7 +189,7 @@ p {
 }
 
 .contato {
-    
+    text-align: center;
 }
 
 footer {
@@ -193,3 +205,5 @@ footer {
         display: flex;
         flex-direction: column;}
     }
+
+/*
