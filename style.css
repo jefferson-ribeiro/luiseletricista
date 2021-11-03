@@ -92,9 +92,8 @@ header p {
 }
 
 .logo {
-    display: flex;
     align-items: center;
-    width: 24rem;
+    width: 26rem;
     padding: .5rem;
     margin: auto;
     
