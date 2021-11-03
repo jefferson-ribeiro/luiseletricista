@@ -55,7 +55,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     max-width: 1000px;
-    
+    min-width: 100%;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -107,6 +107,7 @@ header p {
 nav {
     background-color: var(--cor3);
     padding: 10px;
+    min-width: 100%;
     text-align: center;
     box-shadow: 0px 7px 9x rgba(0, 0, 0, 0.315);
   
@@ -204,6 +205,10 @@ footer {
     .container {
         display: flex;
         flex-direction: column;}
+
+        main {
+            width: 100%;
+        }
     }
 
 /*
