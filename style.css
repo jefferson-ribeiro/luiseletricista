@@ -206,4 +206,8 @@ footer {
         flex-direction: column;}
     }
 
+    #topo {
+        min-width: 100%;
+    }
+
 /*
