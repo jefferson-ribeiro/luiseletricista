@@ -90,7 +90,7 @@ header p {
 }
 
 .logo img {
-    width: 6.25rem;
+    width: 5rem;
     border: none;
 }
 
@@ -98,7 +98,7 @@ header p {
     display: flex;
     align-items: center;
     width: 29rem;
-    padding: 0.6rem;
+    padding: .4rem;
     margin: auto;
     
 }
