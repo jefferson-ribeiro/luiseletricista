@@ -61,6 +61,7 @@ header {
   background-image: linear-gradient(to bottom, black, var(--cor3));
   text-align: center;
   padding-top: 20px;
+  position: fixed;
 }
 
 header h1 {
@@ -97,6 +98,7 @@ nav {
   padding: 10px;
   text-align: center;
   box-shadow: 0px 7px 9x rgba(0, 0, 0, 0.315);
+  position: fixed;
 }
 
 nav a {
@@ -164,7 +166,8 @@ button img {
   border-color: rgba(0, 0, 0, 0.253);
 }
 
-.seguranca {
+.eletrica {
+    padding-top: 230px;
 }
 
 .contato {
