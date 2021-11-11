@@ -185,11 +185,15 @@ footer {
   }
 
   main {
-    max-width: 100%;
+    min-width: 100%;
+  }
+
+  body {
+    min-width: 100%;
   }
 
   header {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   header p {
@@ -197,6 +201,7 @@ footer {
   }
 
   nav {
-    max-width: 100%;
+    min-width: 100%;
   }
+
 }
